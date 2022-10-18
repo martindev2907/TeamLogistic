@@ -1,0 +1,96 @@
+* {
+    Margin:0;
+    padding:0;
+}
+
+p {
+    color:red //parrafo en rojo
+}
+
+h1 {
+    color:blue // titulo en azul
+}
+
+li {
+    color:green //listaitem color verde
+}
+
+.normal {
+    font-style: normal; // letra normal
+}
+
+.italica {
+    font-style: italic; //letra cursiva
+}
+
+.negrita {
+    font-weight: bold; //letra tipo negrita 
+}
+
+.normal {
+    font-weight: normal; //letra tipo normal
+}
+
+.textoGrande {
+    font-size: 20px; //medida de longitud
+}
+
+.textoRelativo{
+    font-size: 200%; //porcentaje en zoom
+}
+
+.impact{
+    font-family:Impact, sans-serif; //letra tipo wordpad
+}
+
+.comicSans{
+    font-family: "Comic Sans MS",sans-serif; //letrita comicsans
+}
+
+.centrar{
+    text-align: center; //texto al medio;
+}
+
+.aLaDerecha {
+    text-align: right; //texto a la derecha
+}
+
+//valores posibles LEFT RIGHT CENTER JUSTIFY//
+
+.interlineado {
+    line-height: 1.6; //se ve texto ensimado
+}
+
+//valores posibles : none/<numero>/<longitud>/<porcentaje>//
+
+.colorDeFondo{
+    background-color: yellow; //se ve el fondo amarillo
+}
+
+.colocarFondoDeImagen{
+    background-image: url("https://scontent.feze11-1.fna.fbcdn.net/v/t39.30808-6/280373267_541172484059514_1843384088863442126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EhiUAj3Fyx8AX8qMoNd&_nc_ht=scontent.feze11-1.fna&oh=00_AT8C72EdOeyG05EmbF1iv36xMSaB3A4eR0GRLoB5zi-KgA&oe=634F24ED")
+}
+
+.fondoDeTextoConImagen {
+    background-image:
+    url("https://mdn.mozillademos.org/fi
+    les/12005/starsolid.gif");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    }                        
+
+    html { /* etiqueta raíz */
+        font-size: 62.5%;
+        }
+        p {
+        font-size: 2rem; /* 20px */
+        }
+
+        ///62.5%, hace que en vez de que 16px sea el valor a tomar en cuenta para calcular las
+        unidades relativas, se use 10px
+
+
+
+        .subrayado {
+            text-decoration: none;
+            }

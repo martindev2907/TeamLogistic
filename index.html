@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <style>
+    * {
+    Margin:0;
+    padding:0;
+}
+
+.comicSans{
+    font-family: "Comic Sans MS",sans-serif; //letrita comicsans
+}
+
+
+
+.colocarFondoDeImagen{
+    background-image: url("https://scontent.feze11-1.fna.fbcdn.net/v/t39.30808-6/280373267_541172484059514_1843384088863442126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EhiUAj3Fyx8AX8qMoNd&_nc_ht=scontent.feze11-1.fna&oh=00_AT8C72EdOeyG05EmbF1iv36xMSaB3A4eR0GRLoB5zi-KgA&oe=634F24ED")
+}
+ </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +27,7 @@
 <body>
    <header>
     <div>
-        <h1>TeamLogistic</h1>
+         <h1 class="comicSans">TeamLogistic</h1>
     </header>
       <main> <img src="https://scontent.feze11-1.fna.fbcdn.net/v/t39.30808-6/280373267_541172484059514_1843384088863442126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EhiUAj3Fyx8AX8qMoNd&_nc_ht=scontent.feze11-1.fna&oh=00_AT8C72EdOeyG05EmbF1iv36xMSaB3A4eR0GRLoB5zi-KgA&oe=634F24ED" width= 200 height=300 alt="logo teamlogistic"/>
         <h2>Servicio Motomensajeria CABA y GBA</h2>
@@ -20,13 +36,13 @@
          conta con nuestro servicio!!</strong></h3>
 
     <form>
-         <p>Cotiza y programa tu envio en el dia o para el dia siguiente</p>
+         <p style="color:red">Cotiza y programa tu envio en el dia o para el dia siguiente</p>
     
-   <ol>
-    <li>desde donde sale tu pedido</li> <form><label for="direccion partida"> <input type="text" name="direccion partida"/></label></form>
-    <li>hasta donde va tu pedido</li> <form><label for="direccion destino"> <input type="text" name="direccion destino"/></label></form>
-    <li>que tamaño tiene tu pedido</li> <form><label for="tamaño"> <input type="text" name="tamaño"/></label></form>
-    <li>quien recibe? dejanos su nombre y telefono</li> <form><label for="quien recibe"> <input type="text" name="receptor"/></label></form>
+   <ol class=".colocarFondoDeImagen">
+    <li style="color:green">desde donde sale tu pedido</li> <form><label for="direccion partida"> <input type="text" name="direccion partida"/></label></form>
+    <li style="color:green">hasta donde va tu pedido</li> <form><label for="direccion destino"> <input type="text" name="direccion destino"/></label></form>
+    <li style="color:green">que tamaño tiene tu pedido</li> <form><label for="tamaño"> <input type="text" name="tamaño"/></label></form>
+    <li style="color:green">quien recibe? dejanos su nombre y telefono</li> <form><label for="quien recibe"> <input type="text" name="receptor"/></label></form>
    </ol>
    <form>
 <strong><div>Seleccione su vehiculo</strong></div>  
@@ -35,14 +51,15 @@
     <option value="Auto">Auto</option>
     <option value="Camioneta">Camioneta</option>
     </select>
-    </form>
-
+    </form> 
+       <br>
+       <br>
   <form><fieldset><legend><strong>Como armar tu paquete para despacho</strong></legend>
     <ul> 
     <li>Armalo con cuidado</li>
      <li>Si es fragil envolvelo en papel burbuja o papel corrugado</li>
      <li>Ponele doble bolsa (esto ayuda por si es un dia de lluvia)</li>
-     <li>Arma un remito en triplicado donde indique :</li>
+     <li>Haz un remito en triplicado donde indique :</li>
         - Nombre de remitente<br>
         - Direccion de remitente<br>
         - DNI de remitente<br>
