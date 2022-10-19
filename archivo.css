@@ -92,5 +92,5 @@ li {
 
 
         .subrayado {
-            text-decoration: none;
+            text-decoration: none; //se puede usar underline overline line-through(subrayado)
             }
