@@ -4,67 +4,67 @@
 }
 
 p {
-    color:red //parrafo en rojo
+    color:red /*arrafo en rojo*/
 }
 
 h1 {
-    color:blue // titulo en azul
+    color:blue /*titulo en azul*/
 }
 
 li {
-    color:green //listaitem color verde
+    color:green /*lista item color verde*/
 }
 
 .normal {
-    font-style: normal; // letra normal
+    font-style: normal; /* letra normal*/
 }
 
 .italica {
-    font-style: italic; //letra cursiva
+    font-style: italic; /*letra cursiva*/
 }
 
 .negrita {
-    font-weight: bold; //letra tipo negrita 
+    font-weight: bold; /*letra tipo negrita*/ 
 }
 
 .normal {
-    font-weight: normal; //letra tipo normal
+    font-weight: normal; /*letra tipo normal*/
 }
 
 .textoGrande {
-    font-size: 20px; //medida de longitud
+    font-size: 20px; /*medida de longitud*/
 }
 
 .textoRelativo{
-    font-size: 200%; //porcentaje en zoom
+    font-size: 200%; /*porcentaje en zoom*/
 }
 
 .impact{
-    font-family:Impact, sans-serif; //letra tipo wordpad
+    font-family:Impact, sans-serif; /*letra tipo wordpad*/
 }
 
 .comicSans{
-    font-family: "Comic Sans MS",sans-serif; //letrita comicsans
+    font-family: "Comic Sans MS",sans-serif; /*letrita comicsans*/
 }
 
 .centrar{
-    text-align: center; //texto al medio;
+    text-align: center; /*texto al medio*/
 }
 
 .aLaDerecha {
-    text-align: right; //texto a la derecha
+    text-align: right; /*texto a la derecha*/
 }
 
-//valores posibles LEFT RIGHT CENTER JUSTIFY//
+/*valores posibles LEFT RIGHT CENTER JUSTIFY*/
 
 .interlineado {
-    line-height: 1.6; //se ve texto ensimado
+    line-height: 1.6; /*se ve texto ensimado*/
 }
 
-//valores posibles : none/<numero>/<longitud>/<porcentaje>//
+/*valores posibles : none<numero>/<longitud>/<porcentaje>*/
 
 .colorDeFondo{
-    background-color: yellow; //se ve el fondo amarillo
+    background-color: yellow; /*se ve el fondo amarillo*/
 }
 
 .colocarFondoDeImagen{
@@ -86,11 +86,12 @@ li {
         font-size: 2rem; /* 20px */
         }
 
-        ///62.5%, hace que en vez de que 16px sea el valor a tomar en cuenta para calcular las
-        unidades relativas, se use 10px
+        /* 62.5%, hace que en vez de que 16px sea el valor a tomar en cuenta para calcular las
+        unidades relativas, se use 10px */
 
 
 
         .subrayado {
-            text-decoration: none; //se puede usar underline overline line-through(subrayado)
+            text-decoration: none; /*se puede usar underline overline line-through(subrayado)*/
             }
+            

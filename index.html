@@ -6,41 +6,60 @@
         .comicSans {
             font-family: "Comic Sans MS", sans-serif; //letrita comicsans
         }
+
+        fieldset{
+            background-color: rgb(250, 11, 11);
+        }
+
+        h1{
+            background-color: red;
+        }
+
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+
+        * {
+    Margin:0;
+    padding:0;
+}
     </style>
     <header>
-        <div>
-            <h1 class="comicSans">TeamLogistic</h1>
+             <h1 class="comicSans" style="color: white">TeamLogistic </h1>
     </header>
-    <main> <img
-            src="https://scontent.feze11-1.fna.fbcdn.net/v/t39.30808-6/280373267_541172484059514_1843384088863442126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EhiUAj3Fyx8AX8qMoNd&_nc_ht=scontent.feze11-1.fna&oh=00_AT8C72EdOeyG05EmbF1iv36xMSaB3A4eR0GRLoB5zi-KgA&oe=634F24ED"
-            width=200 height=300 alt="logo teamlogistic" />
-        <h2>Servicio Motomensajeria CABA y GBA</h2>
-    </main>
-
     <div>
-        <iframe width="700" height="200"
+        <iframe width=900 height=100
             src="https://www.youtube.com/embed/kwEBpGzUKOA"
             title="Recorriendo en Moto a calle Luzuriaga de la Ciudad de Mendoza. Argentina" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
-    <h3><strong> Sos emprendedor?, tenes una tienda virtual o recien comenzas y necesitas quien te haga las
+
+
+    <main> <img
+            src="https://scontent.feze11-1.fna.fbcdn.net/v/t39.30808-6/280373267_541172484059514_1843384088863442126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EhiUAj3Fyx8AX8qMoNd&_nc_ht=scontent.feze11-1.fna&oh=00_AT8C72EdOeyG05EmbF1iv36xMSaB3A4eR0GRLoB5zi-KgA&oe=634F24ED"
+            width=200 height=300 alt="logo teamlogistic" />
+        <h2 style="color:rgb(254, 254, 255)">Servicio Motomensajeria CABA y GBA</h2>
+    </main>
+
+       <h3 style="color: white"><strong> Sos emprendedor?, tenes una tienda virtual o recien comenzas y necesitas quien te haga las
             entregas?<br>
             conta con nuestro servicio!!</strong></h3>
 
     <form>
+        
         <fieldset>
             <legend>
-                <p style="color:red">Cotiza y programa tu envio en el dia o para el dia siguiente</p>
+                <p style="color:rgb(254, 254, 255)">Cotiza y programa tu envio en el dia o para el dia siguiente</p>
             </legend>
             <ol>
-                <li style="color:green">desde donde sale tu pedido</li>
+                <li style="color:rgb(0, 8, 0)">desde donde sale tu pedido</li>
                 <form><label for="direccion partida"> <input type="text" name="direccion partida" /></label></form>
-                <li style="color:green">hasta donde va tu pedido</li>
+                <li style="color:rgb(0, 0, 0)">hasta donde va tu pedido</li>
                 <form><label for="direccion destino"> <input type="text" name="direccion destino" /></label></form>
-                <li style="color:green">que tamaño tiene tu pedido</li>
+                <li style="color:rgb(0, 0, 0)">que tamaño tiene tu pedido</li>
                 <form><label for="tamaño"> <input type="text" name="tamaño" /></label></form>
-                <li style="color:green">quien recibe? dejanos su nombre y telefono</li>
+                <li style="color:rgb(0, 1, 0)">quien recibe? dejanos su nombre y telefono</li>
                 <form><label for="quien recibe"> <input type="text" name="receptor" /></label></form>
             </ol>
             <form>
@@ -60,9 +79,9 @@
     
     <form>
         <fieldset>
-            <legend><strong>Como armar tu paquete para despacho</strong></legend>
+            <legend style="color:white"><strong>Como armar tu paquete para despacho</strong></legend>
             <ul>
-                <li>Armalo con cuidado</li>
+                <div><li class=".comicSans">Armalo con cuidado</li></div>
                 <li>Si es fragil envolvelo en papel burbuja o papel corrugado</li>
                 <li>Ponele doble bolsa (esto ayuda por si es un dia de lluvia)</li>
                 <li>Haz un remito en triplicado donde indique :</li>
@@ -90,7 +109,7 @@
 
 
     <form>
-        <div>Acepta términos y condiciones</div>
+        <div style="color: white;">Acepta términos y condiciones</div>
         <input type="checkbox" name="acepta" value="1" />
     </form>
 
