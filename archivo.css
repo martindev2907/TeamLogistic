@@ -1,97 +1,135 @@
-* {
-    Margin:0;
-    padding:0;
-}
-
-p {
-    color:red /*arrafo en rojo*/
+fieldset {
+    background-color: rgb(250, 11, 11);
 }
 
 h1 {
-    color:blue /*titulo en azul*/
+    background-color: rgb(255, 0, 0);
+    font-family: "Comic Sans MS", sans-serif;
 }
 
-li {
-    color:green /*lista item color verde*/
+body {
+    background-color: blue;
 }
+
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
 
 .normal {
-    font-style: normal; /* letra normal*/
+    font-style: normal;
+    /* letra normal*/
 }
 
 .italica {
-    font-style: italic; /*letra cursiva*/
+    font-style: italic;
+    /*letra cursiva*/
 }
 
 .negrita {
-    font-weight: bold; /*letra tipo negrita*/ 
+    font-weight: bold;
+    /*letra tipo negrita*/
 }
 
 .normal {
-    font-weight: normal; /*letra tipo normal*/
+    font-weight: normal;
+    /*letra tipo normal*/
 }
 
 .textoGrande {
-    font-size: 20px; /*medida de longitud*/
+    font-size: 20px;
+    /*medida de longitud*/
 }
 
-.textoRelativo{
-    font-size: 200%; /*porcentaje en zoom*/
+.textoRelativo {
+    font-size: 200%;
+    /*porcentaje en zoom*/
 }
 
-.impact{
-    font-family:Impact, sans-serif; /*letra tipo wordpad*/
+.impact {
+    font-family: Impact, sans-serif;
+    /*letra tipo wordpad*/
 }
 
-.comicSans{
-    font-family: "Comic Sans MS",sans-serif; /*letrita comicsans*/
+.comicSans {
+    font-family: "Comic Sans MS", sans-serif;
+    /*letrita comicsans*/
+    font-weight: 300;
 }
 
-.centrar{
-    text-align: center; /*texto al medio*/
+.centrar {
+    text-align: center;
+    /*texto al medio*/
 }
 
 .aLaDerecha {
-    text-align: right; /*texto a la derecha*/
+    text-align: right;
+    /*texto a la derecha*/
 }
 
 /*valores posibles LEFT RIGHT CENTER JUSTIFY*/
 
 .interlineado {
-    line-height: 1.6; /*se ve texto ensimado*/
+    line-height: 1.6;
+    /*se ve texto ensimado*/
 }
 
-/*valores posibles : none<numero>/<longitud>/<porcentaje>*/
+/*valores posibles : none <numero>/<longitud>/<porcentaje>*/
 
-.colorDeFondo{
-    background-color: yellow; /*se ve el fondo amarillo*/
+.colorDeFondo {
+    background-color: yellow;
+    /*se ve el fondo amarillo*/
 }
 
-.colocarFondoDeImagen{
-    background-image: url("https://scontent.feze11-1.fna.fbcdn.net/v/t39.30808-6/280373267_541172484059514_1843384088863442126_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EhiUAj3Fyx8AX8qMoNd&_nc_ht=scontent.feze11-1.fna&oh=00_AT8C72EdOeyG05EmbF1iv36xMSaB3A4eR0GRLoB5zi-KgA&oe=634F24ED")
+.colocarFondoDeImagen {
+    padding: 0;
+    background: url();
+    /*colocar url de imagen*/
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
+
 
 .fondoDeTextoConImagen {
     background-image:
-    url("https://mdn.mozillademos.org/fi
-    les/12005/starsolid.gif");
-    background-repeat: no-repeat;
-    background-size: cover;  
-    }                        
+        url("");
+    /*colocar url de imagen*/
+}
 
-    html { /* etiqueta raíz */
-        font-size: 62.5%;
-        }
-        p {
-        font-size: 2rem; /* 20px */
-        }
+.FondoDeTextoConImagenEnL {
+    background-image: url()
+        /*colocar url de imagen*/
+    ;
+    url()
+    /*colocar segunda url de imagen y aclarar la direccion*/
+    background-repeat: repeat - x,
+        repeat - y;
+}
 
-        /* 62.5%, hace que en vez de que 16px sea el valor a tomar en cuenta para calcular las
+
+
+html {
+    /* etiqueta raíz */
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 2rem;
+    /* 20px */
+}
+
+/* 62.5%, hace que en vez de que 16px sea el valor a tomar en cuenta para calcular las
         unidades relativas, se use 10px */
 
 
 
-        .subrayado {
-            text-decoration: none; /*se puede usar underline overline line-through(subrayado)*/
-            }
-            
+.subrayado {
+    text-decoration: none;
+    /*se puede usar underline overline line-through(subrayado)*/
+}
